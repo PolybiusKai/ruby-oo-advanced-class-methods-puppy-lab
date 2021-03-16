@@ -15,7 +15,7 @@ describe "Dog" do
   after(:each) do
     Dog.class_variable_set(:@@all, [])
   end
-
+  
   describe "class variables" do
     describe "@@all" do
       it "has a class variable, @@all, the points to an array" do
